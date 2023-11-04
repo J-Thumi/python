@@ -1,0 +1,34 @@
+Variables are used to store and manage data within a program. They act as named containers or placeholders that hold values.
+Variables can store different types of data, such as numbers, text, and more, and they provide a way to reference and work with that data.
+Variables are defined by a name, a data type, and an initial value (optional). For example, in Python, you can define a variable like this:
+age = 30
+name = "John
+Data types define the kind of data that can be stored in a variable and the operations that can be performed on that data.
+Common data types include integers (int), floating-point numbers (float), strings (str), boolean (bool), and more complex types like lists, dictionaries, and objects.
+Different programming languages have their own set of data types, and they provide a set of operations (methods) that can be performed on each data type.
+For example in C language there are several data types:
+They can be basic or derived.
+
+The following are the basic data types:
+int: Used to store integer values.
+float: Used to store single-precision floating-point numbers.
+double: Used to store double-precision floating-point numbers.
+char: Used to store a single character.
+Bool: Used to store boolean values (0 for false, 1 for true).
+void: Typically used in function return types to indicate no value.
+
+The following are the dirived data types:
+enum: Used to define a set of named integer constants.
+struct: Used to create user-defined composite data types.
+union: Similar to a struct, but it can store only one member at a time, sharing the same memory space.
+array: A collection of elements of the same data type.
+pointer: Used to store memory addresses.
+
+They can also be user defined using the typedef:
+Typedef: Allows you to create your own data type names for existing data types, improving code readability.
+
+Python has more data types such as list,turples,dictionary and set.
+list: An ordered collection of elements that can be of different data types .It is mutable i.e elements can be added and removed from the list. (e.g., [1, 2, 3], ['apple', 'banana', 'cherry']).
+tuple: An ordered, immutable collection of elements (e.g., (1, 2, 3)).
+dict: A collection of key-value pairs (e.g., {'name': 'John', 'age': 30}).
+set: An unordered collection of unique elements (e.g., {1, 2, 3}).
