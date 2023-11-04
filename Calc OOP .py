@@ -1,8 +1,15 @@
 class Calculator:
     def sum(self,x,y):
         return x+y
+first=int(input("First: "))
+second=int(input("Second: "))
 cal=Calculator()
-print(cal.sum(5,3))
+print(cal.sum(first,second))
+
+
+
+
+
 
 
 
